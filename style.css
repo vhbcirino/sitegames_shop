@@ -1,0 +1,146 @@
+*{  
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header h1{
+    font-size: 50px;
+    margin-left: 25px;
+}
+header nav li{
+    display: inline;
+    margin-right: 25px;
+}
+header nav li a{
+    text-decoration: none;
+    color:greenyellow;
+    font-size: 25px;
+}
+body > header{
+    background-color: rgb(0, 0, 0);
+    color: yellowgreen;
+}
+.container,
+.capa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container,
+header{
+    max-width: 1280px;
+    width: 100%;
+    margin:  0 auto;
+}
+.capa img{
+    width: 310px;
+}
+.capa h2{
+    background-color: yellowgreen;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: black solid 1px;
+    border-top: black solid 1px;
+}
+.capa{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.capa p{
+    padding: 20px;
+    font-weight: bold;
+}
+.articles img{
+    height: 350px;
+}
+.articles article{
+    margin: 10px auto;
+}
+.articles{
+    display: flex;
+    background-color: yellowgreen;
+    justify-content: center;
+}
+.servicos{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.serv h2{
+    background-color: black;
+    color: yellowgreen;
+    text-align: center;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    font-size: 40px;
+    padding: 10px 0;
+}
+.articles article h3{
+    text-align: center;
+    font-size: 30px;
+}
+.articles article ul{
+    font-size: 20px;
+    margin: 0 5px;
+}
+.form input,
+.form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 10px;
+}
+.form button{
+    background-color: yellowgreen;
+    cursor: pointer;
+
+}
+.form address{
+    margin-top: 25px;
+}
+.contato h3{
+    font-size: 30px;
+}
+.redes img{
+    width: 100px;
+}
+.redes li{
+    display: inline;
+}
+.redes li a{
+    text-decoration: none;
+}
+.contato{
+    display: flex;
+    justify-content: center;
+}
+.contato form,
+.redes {
+    margin: auto 100px;
+}
+
+.format{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.estilo h2{
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+    
+}
+.estilo{
+    background-color: black;
+    color: yellowgreen;
+}
+.foot{
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+input:focus{
+    outline-color: yellowgreen;
+}
